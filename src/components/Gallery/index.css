@@ -1,0 +1,24 @@
+/* Write your code here. */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 20px;
+  width: 90%;
+  height: 60%;
+}
+
+.thumbnails-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: none;
+  margin: 9px;
+}
